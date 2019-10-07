@@ -1,0 +1,16 @@
+.data 
+size: .word 10
+target: .word 3998
+result: .word 0
+array: .word 1, 64, 189, 674, 1005, 2763, 3730, 3998, 5476, 1003
+
+.text
+
+#Brett Friedheim
+
+main:
+
+#store answer to 0x10010008 
+
+ori $2,$0,10
+syscall
